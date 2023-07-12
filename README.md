@@ -23,6 +23,7 @@ tiếp tục dung các command sau:
 vào google cloud chọn project đang làm chọn “VPC network” -> “Firewall” rồi xóa firewall “allow-ssh” và chạy lại “terraform apply”
 
 output sẽ có dạng như này
+
 <img src="image/image8.png">
 
 “terraform output -raw tls_private_key > gcp.key && chmod 600 gcp.key”
