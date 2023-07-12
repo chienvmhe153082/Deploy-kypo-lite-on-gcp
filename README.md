@@ -12,6 +12,7 @@ vào phần “IAM and admin” -> “Service accounts” click vào key của p
 <img src="image/image7.png">
 sau khi click chon tab “KEYS” -> “ADD KEY” -> “Create new key” chọn file .JSON nó sẽ download file có dạng abcxyz.json về máy. Đổi tên file này thành auth.json và upload phần ~/kypo-lite/tf-gcp-vm/ của máy ảo
 <img src="image/image4.png">
+
 đổi lại project id trong “provider.tf”, đoạn này anh em nhớ đổi cả “zone” và “region” trong 2 file “provider.tf” vs “instance.tf” nữa nhé( tránh gặp lỗi)
 
 tiếp tục dung các command sau:
